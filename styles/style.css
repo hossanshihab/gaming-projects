@@ -1,0 +1,394 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* nav-section-starts-here */
+.header-container{
+  max-width: 100%;
+  height: 750px;
+}
+.gamer-background-container{
+  max-width: 1300px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.background-wrapper{
+  background-color: white;
+  box-shadow: 1px 1px 10px 1px;
+}
+.left-side{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.left-side p{
+  font-size: 40px;
+  font-weight: 900;
+}
+#pink{
+  color: palevioletred;
+}
+.right-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.follow-us{
+  background-color: rgba(250, 235, 215, 0.637);
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+/* nav-section-ends-here */
+/* play-section-starts-here  */
+.play-section-container{
+  max-width:1300px ;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+}
+.play-section-left{
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+.play-section-left h3{
+  color: red;
+  font-size: 48px;
+  font-weight: 600;
+}
+.play-section-left h1{
+  font-size: 95px;
+  font-weight: 800;
+  color: #F948B2;
+}
+.play-section-right{
+  width: 50%;
+  height: 600px;
+}
+.play-section-right img{
+  width: 100%;
+  height: 100%;
+}
+.btn-container{
+  display: flex;
+  gap: 30px;
+}
+.btn-primary1{
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px 40px;
+  background-color: #FF42A5;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+.btn-primary2{
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 25px 60px;
+  background-color: #4EC5F7;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+/* play-section-endss-here  */
+
+/* gamer-container-starts-here */
+.weare-gamer-container{
+  max-width: 1300px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+}
+.gamer-image-content{
+  width: 50%;
+  height: 600px;
+}
+.gamer-image-content img{
+  width: 100%;
+  margin-top: 100px;
+}
+.gamer-text-content{
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  row-gap: 20px;
+}
+.gamer-text-content h1{
+  color: #F948B2;
+  font-size: 48px;
+  font-weight: 700;
+}
+.gamer-text-content p{
+  color: #F948B2;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* gamer-container-ends-here */
+
+
+/* funny section starts here  */
+.funny-video-container{
+  /* border: 2px solid red; */
+  max-width: 1300px;
+  height: 600px;
+  margin: 0 auto;
+}
+.funny-text-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+.funny-text-content h1{
+  font-size: 60px;
+  font-weight: bolder;
+}
+#purple{
+  color: rgb(248, 11, 248);
+}
+.funny-video-image-content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.items{
+  width: 100%;
+  /* border: 2px solid cyan; */
+  padding: 20px;
+  margin-top: 40px;
+}
+.items img{
+  width: 100%;
+}
+/* funny section ends here  */
+
+/* rider section  */
+
+.horse-rider-container{
+  max-width: 1300px;
+  height: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.rider-text-content{
+  width: 40%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  margin-top: 100px;
+  row-gap: 13px;
+}
+.rider-text-content h4{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(237, 61, 120);
+}
+.rider-text-content h5{
+  font-size: 60px;
+}
+.rider-text-content h6{
+  font-size: 50px;
+}
+.rider-image-content{
+  width: 40%;
+  margin-top: 60px;
+  margin-left: 170px;
+}
+.rider-image-content img{
+  width: 100%;
+}
+.rider-flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.doll{
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+}
+
+/* rider section end */
+
+/* anime-section-starts-here  */
+.anime-section-container{
+  max-width: 1300px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+.anime-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anime-image-content{
+  width: 50%;
+  height: 600px;
+}
+.anime-image-content img{
+  width: 90%;
+  height: 600px;
+}
+.anime-text-content{
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  row-gap: 50px;
+}
+.anime-text-content h1 {
+  font-size: 50px;
+}
+.anime-text-content p {
+  font-size: 20px;
+}
+.girl{
+  width: 30%;
+  height: 200px;
+  position: absolute;
+  bottom: 1%;
+  top: 65%;
+  left: 33%;
+}
+.girl img{
+  width: 70%;
+}
+/* anime-section-ends-here  */
+
+/* carrier-section-starts-here */
+.carrier-section-container{
+  width: 100%;
+  min-height: 600px;
+  margin-top: 250px;
+  background-color: #F948B2;
+}
+.carrier-sections{
+  max-width: 1300px;
+  min-height: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+.carrier-text-content{
+  width: 50%;
+  height: 600px;
+  line-height: 50px;
+  color: white;
+  padding: 20px;
+}
+.carrier-text-content h3, small{
+  font-size: 3rem;
+  text-align: justify;
+}
+.left-right{
+  display: flex;
+  justify-content: space-between;
+
+}
+.right{
+  text-align: right;
+}
+.carrier-image-content{
+  width: 50%;
+  height: 600px;
+}
+.carrier-image-content img{
+  width: 100%;
+  height: 100%;
+}
+/* carrier-section-ends-here */
+/* action-section-container starts  */
+.action-section-container{
+  width: 100%;
+  min-height: 400px;
+  margin-top: 50px;
+  background-color: #FFFF;
+}
+.action-section{
+  max-width: 1300px;
+  min-height: 400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+.action-card{
+  height: 65px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  justify-content: center;
+  margin-top: 50px;
+}
+/* action-section-container ends  */
+/* footer-section-starts-here */
+.footer-section-container{
+  width: 100%;
+  min-height: 500px;
+  background-color: black;
+  padding: 20px;
+}
+.footer-allitems{
+  max-width: 800px;
+  min-height: 500px;
+  margin: 0 auto;
+  color: white;
+  cursor: pointer;
+}
+.gamer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.our-story{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+.logos{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 30px;
+}
+.terms{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin-top: 70px;
+}
+#last{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+  opacity: 0.7;
+}
+/* footer-section-endss-here */

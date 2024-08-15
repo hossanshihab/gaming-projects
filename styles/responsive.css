@@ -1,0 +1,138 @@
+/* responsive for 500px device  */
+@media screen and (max-width: 500px) {
+  .gamer-background-container{
+    flex-direction: column;
+  }
+  .left-side{
+    flex-direction: column;
+  }
+  .right-side{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .background-wrapper{
+    height: 350px;
+  }
+
+  .play-section-container{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .play-section-right{
+    width: 90%;
+    margin-top: 100px;
+  }
+  .play-section-left{
+    width: 90%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .weare-gamer-container{
+    flex-direction: column;
+    margin-top: 450px;
+  }
+  .gamer-image-content{
+    width: 100%;
+  }
+  .gamer-text-content{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .funny-video-container{
+    margin-top: 230px;
+  }
+  .funny-text-content{
+      text-align: center;
+  }
+  .funny-video-image-content{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .horse-rider-container{
+    margin-top: 2200px;
+  }
+  .rider-flex{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .rider-text-content{
+    text-align: center;
+    width: 100%;
+  }
+  .rider-image-content{
+    width: 30%;
+  }
+  .doll{
+    width: 30%;
+    height: 200px;
+    bottom: 55%;
+    left: 20%;
+  }
+  .doll img{
+    width: 70%;
+  }
+  .anime-container{
+    flex-direction: column;
+ }
+ .anime-text-content{
+  flex-direction: column;
+ }
+ .anime-image-content{
+  width: 70%;
+  }
+ .anime-image-content img{
+  width: 100%;
+ }
+ .anime-text-content{
+  width: 100%;
+  text-align: center;
+ }
+ .girl{
+  width: 30%;
+  height: 200px;
+  position: absolute;
+  bottom: 1%;
+  top: 85%;
+  left: 5%;
+}
+ .girl img{
+  width: 100%;
+}
+.carrier-section-container{
+  margin-top: 600px;
+}
+.carrier-sections{
+  flex-direction: column;
+  width: 100%;
+}
+.left-right{
+  width: 100%;
+}
+.carrier-text-content{
+  width: 100%;
+  padding: 20px;
+}
+.carrier-image-content{
+  width: 100%;
+}
+.carrier-image-content img{
+  width: 100%;
+}
+.action-section{
+  grid-template-columns: repeat(1, 1fr);
+}
+.action-card{
+  width: 100%;
+}
+.fa-brands{
+  width: 100%;
+}
+}
+
+
